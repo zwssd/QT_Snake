@@ -10,8 +10,9 @@ extern player current_player;
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
 {
-    setWindowFlags(Qt::FramelessWindowHint);
-    setWindowFlags(windowFlags()&~Qt::WindowMaximizeButtonHint); // Disabled window maximize button
+    //setWindowFlags(Qt::FramelessWindowHint);
+    //setWindowFlags(windowFlags()&~Qt::WindowMaximizeButtonHint); // Disabled window maximize button
+    setWindowFlags(this->windowFlags());
     setFixedSize(960,540);
     setWindowIcon(QIcon(":/favicon.ico"));
 

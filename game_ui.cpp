@@ -227,7 +227,7 @@ void QGameWidget::initGame(){
 
 
 void QGameWidget::overGame(){
-    boolean wirte_flag=false;
+    GLboolean wirte_flag=false;
     QString message="未能闯进前三名！再接再厉！";
 
     if(player_data.size()==0){

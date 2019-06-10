@@ -26,7 +26,7 @@ private:
     int food_y;
     int snake_tail;
     int snake_direction;
-    boolean game_status;
+    GLboolean game_status;
 
     QList<location> snake;
     QPushButton *btn_start;
